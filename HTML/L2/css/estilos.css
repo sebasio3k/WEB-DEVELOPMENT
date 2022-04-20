@@ -1,0 +1,30 @@
+body {
+  background-color: #fdfcdc;
+}
+
+h1 {
+  color: #f07167;
+}
+
+p {
+  color: whitesmoke;
+  background-color: #00afb9;
+  padding: 15px;
+  border: 10px solid #fed9b7;
+  /* margin: 50px; */
+
+  /* margin-top: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px; */
+
+  /* margin: 40px 10px 20px 10px; */
+
+  /* arriba abajo, derecha, izquierda */
+  /* margin: 40px 20px; */
+
+  /* centrar de manera horizontal */
+  margin: auto 50px;
+
+  text-align: center;
+}
