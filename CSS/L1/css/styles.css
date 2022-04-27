@@ -1,0 +1,41 @@
+/* Selector universal: * */
+* {
+  background-color: ghostwhite;
+  color: cornflowerblue;
+}
+
+/* toma más prioridad -> !important */
+/* h1 {
+  color: steelblue !important;
+  text-align: center;
+  font-size: 100px;
+} */
+
+/* selector id: */
+#titulo {
+  color: crimson;
+  text-align: center;
+}
+
+/* Clases: */
+/* .centrar {
+  text-align: center;
+} */
+
+.texto_grande {
+  font-size: 20px;
+}
+
+/* Agrupar selectores: */
+/* h1,
+h2,
+p,
+div {
+  color: crimson;
+  text-align: center;
+} */
+
+/* Subclases: */
+p.centrar {
+  text-align: center;
+}
