@@ -1,0 +1,33 @@
+h1 {
+  color: #ef476f;
+  /* background-color: beige; */
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #ced4da; /* [eje x, eje y, trasnparencia, color] */
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  text-decoration: overline underline;
+}
+
+.caja {
+  padding: 15px;
+  margin: auto;
+  width: 70%;
+  background-color: #219ebc;
+  border-radius: 5px;
+  color: white;
+}
+
+.texto {
+  text-align: justify;
+  /* Direccion de lectura: default: left_to_right -> ltf: */
+  /* direction: rtl; */
+  /* text-decoration: overline; */
+  /* Identacion: */
+  text-indent: 30px;
+  /* Separacion de lineas: */
+  line-height: 1.5;
+  /* Para no envolver el texto en el div: nowrap */
+  white-space: normal;
+  text-shadow: 1px 1px 2px #ced4da;
+}
