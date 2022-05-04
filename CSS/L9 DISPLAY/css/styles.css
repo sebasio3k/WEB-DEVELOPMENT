@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  color: cadetblue;
+  /* quita por completo el elemento: */
+  display: none;
+}
+
+p {
+  /* si hay espacio reservado: */
+  visibility: hidden;
+}
+
+h2,
+div,
+p {
+  border: 3px solid blueviolet;
+  text-align: center;
+  color: cornflowerblue;
+  padding: 10px;
+  /* valor por defecto: */
+  display: block;
+}
+
+span {
+  display: inline;
+  border: 1px solid black;
+}
+
+a {
+  display: block;
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
