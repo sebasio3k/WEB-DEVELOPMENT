@@ -1,0 +1,87 @@
+h1 {
+  text-align: center;
+  color: steelblue;
+  text-decoration: overline;
+}
+
+div {
+  /* si hay static, top, left, bottom no se toman en cuenta: */
+  position: static;
+  /* max-width: 400px; */
+  max-width: 50%;
+  border: 3px solid firebrick;
+  /* centrar: */
+  margin: auto;
+}
+.relative {
+  /* se configuran con top, right, bottom, y left */
+  position: relative;
+  top: 30px;
+  left: 50px;
+  bottom: 20px;
+  max-width: 50%;
+  border: 3px solid cornflowerblue;
+  /* centrar: */
+  margin: auto;
+}
+
+.ajustado {
+  /* Sigue el movimiento del scroll, (usable en menus) */
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  border: 3px solid gold;
+}
+
+div.relativo {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  top: 40px;
+  border: 3px solid cornflowerblue;
+}
+
+div.absoluta {
+  /* Cuando se trabaja dentro de un elemento div */
+  /* si no hay div padre, se considera el documento body */
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  border: 3px solid cadetblue;
+}
+
+div.sticky {
+  /* para safari:
+  position: -webkit-sticky; */
+  position: sticky;
+  top: 10px;
+  border: 3px solid indigo;
+}
+
+div.estatico {
+  position: static;
+  top: 10px;
+  padding: 15px;
+  border: 3px solid greenyellow;
+  background-color: whitesmoke;
+}
+
+div.relativo2 {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  padding: 15px;
+  border: 3px solid blueviolet;
+  background-color: whitesmoke;
+  /* se selecciona el bodycontent: */
+  /* z-index: -1; */
+}
+
+div.absoluto2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 112px;
+  border: 3px solid chocolate;
+  z-index: -1;
+}
