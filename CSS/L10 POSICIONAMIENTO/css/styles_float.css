@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  color: steelblue;
+  text-decoration: overline;
+}
+
+div.contenedor {
+  width: 30%;
+  height: 100px;
+
+  /* Barras de scroll pero sólo si se necesitan: */
+  overflow: auto;
+}
+
+div.contenedor.flotado {
+  /* float: none; */
+  float: left;
+}
+
+div.contenedor.flotado.contenedor1 {
+  border: 3px double greenyellow;
+}
+
+div.contenedor.flotado.contenedor2 {
+  border: 3px dashed cornflowerblue;
+  float: right;
+}
+
+div.contenedor.contenedor3 {
+  clear: both;
+  border: 3px dashed darkorange;
+  margin: auto;
+}

@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  color: steelblue;
+  text-decoration: overline;
+}
+
+div.contenedor {
+  position: relative;
+  border: 8px double greenyellow;
+  width: 30%;
+  height: 100px;
+  margin: auto;
+
+  /* Sólo se puede usar si se especifica un width y un height: */
+  /* overflow: visible; */
+
+  /* se recorta el contenido desbordado: */
+  /* overflow: hidden; */
+
+  /* mostrar texto sin desborde: (scroll horizontal y vertical)*/
+  /* overflow: scroll; */
+
+  /* Barras de scroll pero sólo si se necesitan: */
+  overflow: auto;
+
+  /* overflow-x: auto hidden, scroll visible; */
+  /* overflow-y: auto hidden, scroll visible; */
+}

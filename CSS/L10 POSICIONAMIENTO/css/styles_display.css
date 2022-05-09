@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  color: steelblue;
+  text-decoration: overline;
+}
+
+div.contenedor {
+  width: 80%;
+  height: 20%;
+  /* Barras de scroll pero sólo si se necesitan: */
+  overflow: auto;
+  margin: auto;
+  border: 3px dashed #a8dadc;
+}
+
+span {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: larger;
+  background-color: #a8dadc;
+  border: 1px solid #457b9d;
+  height: 50px;
+  padding: 5px;
+
+  /* espacio mayor entre lineas: */
+  display: inline-block;
+}
+
+.menu {
+  list-style: none;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 15px;
+  margin: 20px;
+  background-color: #e63946;
+  border-radius: 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #f1faee;
+}
