@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: #e63926;
+    text-decoration: overline;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457d9d;
+}
+
+div.contenedor.descendiente p{
+    background-color: #fdffb6;
+}
+
+div.contenedor.hijo > p{
+    background-color: #ffc6ff;
+}
+
+div.contenedor.adyacente + p{
+    /* no afecta a los elementos internos sino solo al unico siguiente: */
+    background-color: #caffbf;
+}
+
+div.contenedor.hermano ~ p{
+    /* no afecta a los elementos internos sino solo al unico siguiente: */
+    background-color: #9bf6ff;
+}
