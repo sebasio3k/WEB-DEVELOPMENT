@@ -8,14 +8,26 @@ while (contador < 3) {
 }
 // do while
 do {
-    console.log("contador :>> ", contador);
-    contador--;
+  console.log("contador :>> ", contador);
+  contador--;
 } while (contador > 0);
 
-console.log('contador :>> ', contador);
+console.log("contador :>> ", contador);
 
-// for
-for (let cont = 0; cont < 3; cont++) {
-    const element = array[cont];
-    
+// for, break
+for (let cont = 0; cont <= 10; cont++) {
+  if (cont % 2 == 0) {
+    console.log("cont :>> ", cont);
+    break;
+  }
+}
+
+//continue, etiquetas
+inicio:
+for (let c = 0; c <= 10; c++) {
+  if (c % 2 !== 0) {
+    continue inicio;
+  } else {
+    console.log("c :>> ", c);
+  }
 }
