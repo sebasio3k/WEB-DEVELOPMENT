@@ -1,0 +1,5 @@
+// ciclos
+
+while (condition) {
+    
+}
